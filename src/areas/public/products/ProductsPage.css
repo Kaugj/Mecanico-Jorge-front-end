@@ -1,2 +1,13 @@
-.products { background: var(--color-light); color: var(--color-black); min-height: 100%; }
-.products__inner { max-width: 1280px; padding-top: 32px; padding-bottom: 72px; }
+.products { 
+    background: var(--color-light); 
+    color: var(--color-black); 
+    min-height: 100%;
+}
+.products__inner { 
+    max-width: 1280px; 
+    padding-top: 32px; 
+    padding-bottom: 72px; 
+    margin: 0 auto;
+    background: var(--color-light); 
+    color: var(--color-black);
+}

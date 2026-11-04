@@ -1,0 +1,9 @@
+{
+  "tarefas": [
+    { "id": 1, "titulo": "Estudar React", "concluido": false },
+    { "id": 2, "titulo": "Praticar Node.js", "concluido": true }
+  ],
+  "usuarios": [
+    { "id": 1, "nome": "Ana" }
+  ]
+}

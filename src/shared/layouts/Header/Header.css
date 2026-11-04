@@ -1,9 +1,9 @@
 .header { background: var(--color-black); position: relative; z-index: 10; }
 .header__inner {
-  max-width: 1360px; margin: 0 auto; padding: 18px 48px;
+  max-width: 1895px; padding: 18px 48px;
   display: flex; align-items: center; gap: 48px; min-height: 108px;
 }
-.header__nav { display: flex; gap: 44px; margin-right: auto; margin-left: 24px; }
+.header__nav { display: flex; gap: 90px; margin-right: auto; margin-left: 40px; }
 .header__link { font-size: 18px; color: var(--color-white); padding: 6px 0; transition: color .15s; }
 .header__link:hover { color: var(--color-red); }
 .header__link.is-active { color: var(--color-red); font-weight: 700; }

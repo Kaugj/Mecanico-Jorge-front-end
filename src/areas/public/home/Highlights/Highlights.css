@@ -1,1 +1,8 @@
-.highlights { list-style: none; padding: 0; margin: 44px 0 0; display: flex; flex-wrap: wrap; gap: 20px; }
+.highlights { 
+    list-style: none; 
+    padding: 0; 
+    margin: 105px 0 0; 
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 20px; 
+}
