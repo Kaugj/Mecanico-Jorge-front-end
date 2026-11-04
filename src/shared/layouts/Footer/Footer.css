@@ -1,0 +1,8 @@
+.footer {
+  background: var(--color-black); color: var(--color-text-muted); font-size: 13px;
+  padding: 24px 48px; display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap;
+}
+.footer__links { display: flex; gap: 10px; }
+.footer__links a:hover { color: var(--color-white); }
+.footer--copyright { justify-content: flex-end; border-top: 1px solid var(--color-border); padding: 28px 64px; }
+@media (max-width: 640px) { .footer { padding: 20px; flex-direction: column; } .footer--copyright { padding: 20px; } }

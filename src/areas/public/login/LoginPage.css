@@ -1,0 +1,2 @@
+.login { max-width: 1280px; margin: 0 auto; padding: 24px 48px 48px; display: grid; grid-template-columns: 1fr minmax(360px, 460px); gap: 120px; align-items: start; }
+@media (max-width: 960px) { .login { grid-template-columns: 1fr; gap: 32px; padding: 16px 20px 40px; } }

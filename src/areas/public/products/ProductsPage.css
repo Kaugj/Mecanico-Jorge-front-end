@@ -1,0 +1,2 @@
+.products { background: var(--color-light); color: var(--color-black); min-height: 100%; }
+.products__inner { max-width: 1280px; padding-top: 32px; padding-bottom: 72px; }

@@ -1,0 +1,7 @@
+.hero-photo {
+  aspect-ratio: 1; width: min(100%, 640px); justify-self: end; overflow: hidden; border-radius: 50%;
+  border: 8px solid var(--color-red);
+  box-shadow: 0 0 0 4px var(--color-black), 0 0 0 6px var(--color-red);
+}
+.hero-photo img { width: 100%; height: 100%; object-fit: cover; }
+@media (max-width: 900px) { .hero-photo { width: min(100%, 380px); } }

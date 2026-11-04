@@ -1,0 +1,5 @@
+.check-item { display: grid; grid-template-columns: 45px 150px 1fr; align-items: center; gap: 16px; }
+.check-item__box { width: 45px; height: 45px; background: var(--color-red); color: var(--color-white); border-radius: 6px; display: grid; place-items: center; }
+.check-item__title { color: var(--color-red); text-transform: uppercase; font-size: 14px; }
+.check-item__text { font-size: 14px; color: var(--color-black); }
+@media (max-width: 480px) { .check-item { grid-template-columns: 45px 1fr; } .check-item__text { grid-column: 2; } }

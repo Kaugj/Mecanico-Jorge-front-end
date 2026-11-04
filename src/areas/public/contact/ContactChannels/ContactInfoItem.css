@@ -1,0 +1,7 @@
+.info-item { display: flex; align-items: center; gap: 18px; }
+.info-item__icon { flex: none; width: 44px; height: 44px; border-radius: 8px; display: grid; place-items: center; color: var(--color-white); }
+.info-item__icon--red { background: var(--color-red); }
+.info-item__icon--green { background: var(--color-whatsapp); color: var(--color-black); }
+.info-item__text { display: flex; flex-direction: column; gap: 2px; font-size: 15px; margin-right: 12px; }
+.info-item__label { font-size: 15px; }
+.info-item__text a:hover { color: var(--color-red); }

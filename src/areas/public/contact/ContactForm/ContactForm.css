@@ -1,0 +1,13 @@
+.contact-form { border: 1px solid var(--color-border); border-radius: 12px; padding: 28px; display: flex; flex-direction: column; gap: 22px; }
+.contact-form h2 { font-size: 22px; }
+.contact-form__field { display: flex; flex-direction: column; gap: 6px; }
+.contact-form input, .contact-form textarea {
+  width: 100%; background: transparent; color: var(--color-white); font: inherit; font-size: 15px;
+  border: 1px solid var(--color-text-muted); border-radius: 10px; padding: 16px 18px; resize: vertical;
+}
+.contact-form input::placeholder, .contact-form textarea::placeholder { color: var(--color-white); opacity: .85; }
+.contact-form [aria-invalid="true"] { border-color: var(--color-red); }
+.contact-form small { color: var(--color-red); font-size: 12px; }
+.contact-form__submit { font-size: 18px; text-transform: none; font-weight: 400; padding: 18px; border-radius: 10px; }
+.contact-form__feedback { font-size: 14px; color: var(--color-whatsapp); }
+.contact-form__feedback--error { color: var(--color-red); }

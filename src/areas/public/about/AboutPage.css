@@ -1,0 +1,4 @@
+.about-body { background: var(--color-light); color: var(--color-black); padding: 16px 0 56px; }
+.about-body .container { max-width: 1280px; }
+.about-body__grid { display: grid; grid-template-columns: 1fr 1fr; gap: 48px; align-items: start; }
+@media (max-width: 900px) { .about-body__grid { grid-template-columns: 1fr; gap: 24px; } }

@@ -1,0 +1,7 @@
+.login-intro { padding-top: 40px; }
+.login-intro h1 { color: var(--color-red); font-size: clamp(28px, 4vw, 34px); text-transform: uppercase; }
+.login-intro p { max-width: 28ch; font-size: 18px; line-height: 1.4; margin-top: 24px; }
+.login-intro ul { list-style: none; padding: 0; margin: 72px 0 0; display: flex; flex-direction: column; gap: 16px; font-size: 18px; }
+.login-intro li { display: flex; align-items: center; gap: 16px; }
+.login-intro li svg { color: var(--color-red); }
+@media (max-width: 960px) { .login-intro { padding-top: 0; } .login-intro ul { margin-top: 28px; } }

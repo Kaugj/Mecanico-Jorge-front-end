@@ -1,0 +1,20 @@
+/* ==========================================================================
+   TOKENS DE COR — extraídos do PDF de design (seguir à risca).
+   Nunca use hex direto nos componentes: sempre var(--token).
+   ========================================================================== */
+:root {
+  --color-black: #050505;        /* fundo principal, cabeçalho e rodapé */
+  --color-red: #EB0F16;          /* destaque: botões, títulos, item ativo */
+  --color-surface: #141414;      /* cards escuros (serviços) */
+  --color-border: #323232;       /* bordas dos cards e campos escuros */
+  --color-light: #EEEEEE;        /* fundo das páginas claras (Sobre, Produtos) */
+  --color-white: #FFFFFF;        /* textos sobre fundo escuro, cards claros */
+  --color-text-muted: #AFAFAF;   /* textos secundários sobre fundo escuro */
+  --color-whatsapp: #43E660;     /* botão "Chamar no whatsapp" */
+
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 28px;
+  --container: 1200px;
+  --font-main: Arial, Helvetica, sans-serif;
+}

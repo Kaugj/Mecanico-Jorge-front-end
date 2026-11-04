@@ -1,0 +1,48 @@
+/* Reset + estilos globais compartilhados por todas as páginas. */
+*, *::before, *::after { box-sizing: border-box; }
+
+html, body, #root { height: 100%; }
+
+body {
+  margin: 0;
+  font-family: var(--font-main);
+  background: var(--color-black);
+  color: var(--color-white);
+  -webkit-font-smoothing: antialiased;
+}
+
+img { max-width: 100%; display: block; }
+a { color: inherit; text-decoration: none; }
+button { font-family: inherit; cursor: pointer; }
+h1, h2, h3, p { margin: 0; }
+
+/* Foco visível para navegação por teclado (acessibilidade) */
+:focus-visible { outline: 2px solid var(--color-red); outline-offset: 3px; }
+
+/* Largura máxima padrão do conteúdo */
+.container {
+  width: 100%;
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+/* Layout em coluna: o <main> ocupa o espaço entre cabeçalho e rodapé */
+.app-shell { min-height: 100%; display: flex; flex-direction: column; }
+.app-shell > main { flex: 1; }
+
+/* Grade responsiva usada por serviços e produtos (3 → 2 → 1 colunas) */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+@media (max-width: 980px) { .card-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 640px) { .card-grid { grid-template-columns: 1fr; } }
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; animation: none !important; }
+}
+
+/* Texto visível apenas para leitores de tela (rótulos dos campos) */
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }

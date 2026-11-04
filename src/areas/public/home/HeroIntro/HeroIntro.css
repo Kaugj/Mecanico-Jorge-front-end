@@ -1,0 +1,8 @@
+.hero-intro h1 { display: flex; flex-direction: column; text-transform: uppercase; }
+.hero-intro__name { font-size: clamp(36px, 5vw, 56px); line-height: 1.1; }
+.hero-intro__sub { font-size: clamp(26px, 3.4vw, 36px); margin-top: 12px; }
+.hero-intro__tagline { color: var(--color-red); font-size: clamp(24px, 3vw, 30px); font-weight: 700; line-height: 1.25; margin-top: 56px; }
+.hero-intro__desc { color: var(--color-text-muted); font-size: 17px; margin-top: 40px; }
+.hero-intro__actions { display: flex; flex-wrap: wrap; gap: 16px; margin-top: 44px; }
+.hero-intro__actions .btn { min-width: 180px; }
+@media (max-width: 900px) { .hero-intro__tagline { margin-top: 32px; } .hero-intro__desc { margin-top: 20px; } }
